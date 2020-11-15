@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+#nav {
+	background-color: #1A252F;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+#nav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+#nav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #1ABC9C;
+}
+
+.header {
+	background: #1ABC9C;
+	padding-top: 10rem;
+	padding-bottom: 8rem;
+}
+
+.header .avatar-header {
+	width: 15rem;
+	border: 0.25rem solid #FFF;
+	border-radius: 100%;
+
+}
+
+.header .titulo-header {
+	font-size: 2.75rem;
+	line-height: 2.75rem;
+}
+
+.divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider .divider-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2C3E50;
+  border-radius: 1rem;
+  border-color:#2C3E50 !important;
+}
+.divider .divider-line:first-child {
+  margin-right: 1rem;
+}
+
+.divider .divider-line:last-child {
+  margin-left: 1rem;
+}
+
+.divider .divider-icon {
+	color: #2c3e50 !important;
+	font-size: 2rem;
+}
+
+.divider.divider-light .divider-line {
+  background-color: #fff;
+}
+
+.divider.divider-light .divider-icon {
+  color: #fff !important;
+}
+
+.btn-social {
+	border-radius: 100%;
+	display: inline-flex;
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.25rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer {
+	padding-top: 1.5rem;
+	padding-bottom: .5rem;
+	background-color: #1A252F;
+}
+
+#footer .copyright {
+	font-weight: 600;
+}
+
+#footer .copyright a {
+	color: #FFF;
+	text-decoration: none;
+}
